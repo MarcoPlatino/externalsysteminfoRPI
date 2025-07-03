@@ -68,3 +68,7 @@ If you have any other issues than these submit an issue I guess...
 ---
 ## Plans for a case
 Currently I am working on designing and prototyping a stylish and modern case for the screen. It is not done yet. I will post the `.3mf` files once I have completed it.
+
+This is the current prototype:
+![20250703_19h51m19s_grim](https://github.com/user-attachments/assets/c9fb61dc-4f3c-43d2-b0e8-3d857708317c)
+I am just fine-tuning the last things and will add the files. I may also post an optimized print profile on MakerWorld...
