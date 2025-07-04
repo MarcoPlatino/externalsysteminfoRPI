@@ -72,3 +72,12 @@ Currently I am working on designing and prototyping a stylish and modern case fo
 This is the current prototype:
 ![20250703_19h51m19s_grim](https://github.com/user-attachments/assets/c9fb61dc-4f3c-43d2-b0e8-3d857708317c)
 I am just fine-tuning the last things and will add the files. I may also post an optimized print profile on MakerWorld...
+
+---
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
+## Acknowledgments
+
+Portions of this project are adapted from [rpi-lcd](https://github.com/bogdal/rpi-lcd) by Adam Bogdał, used under the MIT License.
