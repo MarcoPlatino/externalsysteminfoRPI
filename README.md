@@ -43,7 +43,7 @@ This will allow the file to run.
 ### Configuring it to run on start
 This code was testing by addind it to the crontab file. Here is the steplist to follow:
 - Start by opening a terminal
-- Type `crontab -e'.
+- Type `crontab -e`.
 You will be presented with a menu asking what editor you would like to open the file with. I *highly* recomend opening it with nano because it is the easiest option (As indicated on the menu).
 
 Once you have it open, it should look something like this:
