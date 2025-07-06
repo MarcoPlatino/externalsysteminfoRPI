@@ -35,8 +35,10 @@ Install all of the dependencies by just running this command:
 
 `pip install -r requirements.txt`
 
+
 > [!Tip]
 > Depending on how you have your Pi configured, it may request that you create a .venv
+
 
 If you already have all of the necessary stuff to run your pi and everything in the list, you should be set!
 
