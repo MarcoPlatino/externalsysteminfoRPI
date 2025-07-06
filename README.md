@@ -1,4 +1,9 @@
 # External System Information for Raspberry Pi 5
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/python-3.x-blue.svg)
+![Last Commit](https://img.shields.io/github/last-commit/MarcoPlatino/externalsysteminfoRPI)
+![Issues](https://img.shields.io/github/issues/MarcoPlatino/externalsysteminfoRPI)
+
 This is an external system information display for the Raspberry Pi 5. I took inspiration from Conky, and Conky Rings, and thought noticed how convenient it was to have that kind of information, but the one drawback to Conky is that it is only on the homescreen -- This becomes one of your peripherals and is always active.
 
 ---
