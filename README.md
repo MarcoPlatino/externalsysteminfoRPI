@@ -15,6 +15,11 @@ The display shows the following:
 2. A Raspberry Pi (I have only tested this on the pi5)
 3. An LCD screen. I used [this one](https://www.amazon.com/GeeekPi-Interface-Backlight-Raspberry-Electrical/dp/B0BCWJWKG2/141-8914070-5124150?pd_rd_w=aiDfA&content-id=amzn1.sym.751acc83-5c05-42d0-a15e-303622651e1e&pf_rd_p=751acc83-5c05-42d0-a15e-303622651e1e&pf_rd_r=FDYZRA57ETS49SXH0ZRA&pd_rd_wg=FOuh7&pd_rd_r=ce61adae-9817-4b25-9350-e5aa9f382d58&pd_rd_i=B0BCWJWKG2&psc=1)
 
+OPTIONAL THINGS (that will improve your experience):
+1. A 3D printer
+2. Filament
+3. 4 (or 2) M3 screws.
+
 If you already have all of the necessary stuff to run your pi and everything in the list, you should be set!
 
 ---
