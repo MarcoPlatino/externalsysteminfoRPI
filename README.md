@@ -78,7 +78,8 @@ Once you have done that, make the file executable by running this command:
 
 This will allow the file to run.
 
-**It is probably a good idea to just run `ExternalSystemMonitor.py` file to be sure that you have everything wired correctly and it works...**
+> [!NOTE]
+> It is probably a good idea to just run `ExternalSystemMonitor.py` file to be sure that you have everything wired correctly and it works...
 
 ### Configuring it to run on start
 This code was testing by addind it to the crontab file. Here is the steplist to follow:
