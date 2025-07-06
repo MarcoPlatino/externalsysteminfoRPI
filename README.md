@@ -2,6 +2,14 @@
 This is an external system information display for the Raspberry Pi 5. I took inspiration from Conky, and Conky Rings, and thought noticed how convenient it was to have that kind of information, but the one drawback to Conky is that it is only on the homescreen -- This becomes one of your peripherals and is always active.
 
 ---
+## Features:
+The display shows the following:
+- CPU temperature (in degrees Celcius)
+- CPU load (in percent)
+- RAM usage (as a percentage)
+- Disk Space (As a fraction showing the current used space versus the total space)
+---
+
 ## Stuff you will need:
 1. You need 4 female-to-female jumper wires to wire the LCD to the Pi
 2. A Raspberry Pi (I have only tested this on the pi5)
@@ -25,7 +33,7 @@ Follow this very convenient wiring chart that I have made:
 Make sure that you have 4 female-to-female connectors so that you can wire everything together properly. If you did it right and your pi is powered on, the screen should light up. There may be a potentiometer on the back that you will have to adjust for contrast. You won't really be able to tell how it needs to be adjusted until you actually have the program running, so leave that alone for now...
 
 ### Setting up the code
-Start by cloning the repository onto your machine, and configuring the `externalsystemdisplay.sh` file to direct the python run command to the location of your `externalsystemmonitor.py` file. 
+Start by cloning the repository onto your machine, and configuring the `externalsystemdisplay.sh` file to direct the python run command to the location of your `ExternalSystemMonitor.py` file. 
 It will look something like this:
 ```
 #!/bin/bash
