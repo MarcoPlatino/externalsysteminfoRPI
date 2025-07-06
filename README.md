@@ -35,7 +35,9 @@ python /home/(username)/externalsysteminfoRPI/ExternalSystemMonitor.py
 You should replace the `(username)` with your actual username and modify it to actually be the location of the file. If you have cloned it properly, all the libraries will be configured correctly.
 
 Once you have done that, make the file executable by running this command:
+
 `sudo chmod +x externalsystemdisplay.sh`
+
 This will allow the file to run.
 
 **It is probably a good idea to just run `ExternalSystemMonitor.py` file to be sure that you have everything wired correctly and it works...**
