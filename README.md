@@ -32,7 +32,7 @@ The display shows the following:
   
   OPTIONAL THINGS (that will improve your experience):
   1. A 3D printer
-  2. Filament
+  2. Filament (I used BambuLab Matte PLA)
   3. 4 (or 2) M3 screws.
 
 ### Python Requirements
