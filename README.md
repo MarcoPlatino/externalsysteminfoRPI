@@ -115,7 +115,10 @@ You can find the `3mf` files in the 3D files folder. They have some settings mod
 
 To attach the screen to the stand, you will need 4 M3 screws. Just use the holes on the back of the stand to pass the screwdriver in.
 
-**I will try to upload photos soon**
+### Photos
+![462935674-c68daf85-abc6-4d0c-8a1c-371d4e4fbe4b](https://github.com/user-attachments/assets/71c4c71f-c36b-4e7a-9762-9473f3c86634)
+![IMG_20250706_113348169_HDR](https://github.com/user-attachments/assets/6ba8c85c-82ec-407c-a361-bb7def9c9d89)
+
 
 
 ---
