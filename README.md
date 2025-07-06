@@ -76,12 +76,17 @@ If when you ran the `ExternalSystemMonitor.py` file, it did work, then there is 
 If you have any other issues than these submit an issue I guess...
 
 ---
-## Plans for a case
-Currently I am working on designing and prototyping a stylish and modern case for the screen. It is not done yet. I will post the `.3mf` files once I have completed it.
+## Stand
+You can find the `3mf` files in the 3D files folder. They have some settings modified that I think will improve the print quality, such as enabling supports, and also adding a brim. On my Bambu Labs H2D, it prints in about 2.5 hours using the 0.2 mm layer height. 
 
-This is the current prototype:
-![20250703_19h51m19s_grim](https://github.com/user-attachments/assets/c9fb61dc-4f3c-43d2-b0e8-3d857708317c)
-I am just fine-tuning the last things and will add the files. I may also post an optimized print profile on MakerWorld...
+### Assembly
+> [!Important]
+> When assembling the stand, I *highly* recomend first attaching all of your jumper wires to the LCD screen, passing them through the hole, screwing everything in, and only then connect > them to the pi. If you do not do that, you will have a very tough time. 
+
+To attach the screen to the stand, you will need 4 M3 screws. Just use the holes on the back of the stand to pass the screwdriver in.
+
+**I will try to upload photos soon**
+
 
 ---
 ## License
