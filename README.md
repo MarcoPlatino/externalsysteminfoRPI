@@ -40,6 +40,9 @@ Install all of the dependencies by just running this command:
 
 `pip install -r requirements.txt`
 
+If you have it in a different directory, you should run this command instead, putting the actual path to your `requirements.txt`.
+
+`pip install -r /path/to/your/requirements.txt`
 
 > [!Tip]
 > Depending on how you have your Pi configured, it may request that you create a .venv
