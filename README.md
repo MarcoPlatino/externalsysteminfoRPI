@@ -94,7 +94,9 @@ Once you have it open, it should look something like this:
 ![20250703_19h24m52s_grim](https://github.com/user-attachments/assets/3ee27baa-2f42-4c40-9d6f-1027a9985dcd)
 
 You are going to have to scroll all the way down to the end of the comments and add this line:
+
 `@reboot /home/(your name)/externalsystemdisplay.sh`
+
 You should replace `(your name)` with the actual name of the account on the pi. If you do not move the `externalsystemdisplay.sh` file to the home directory on your pi, you may have to modify the command to reflect that.
 
 Once you are done you should press `CTRL + X` to exit and confirm any requests to save your changes.
