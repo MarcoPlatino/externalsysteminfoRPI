@@ -14,6 +14,7 @@ def diskspace(r):
         return f'{round(GB(disk.used), 1)}/{round(GB(disk.total), 1)} GB'
     else: 
          return f'({disk.percent}%)'
+    
 def cpuLoad():
      return f'{psutil.cpu_percent(interval=1)}%'
 
