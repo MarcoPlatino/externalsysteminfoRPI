@@ -1,4 +1,9 @@
 # External System Information for Raspberry Pi 5
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/python-3.x-blue.svg)
+![Last Commit](https://img.shields.io/github/last-commit/MarcoPlatino/externalsysteminfoRPI)
+![Issues](https://img.shields.io/github/issues/MarcoPlatino/externalsysteminfoRPI)
+
 This is an external system information display for the Raspberry Pi 5. I took inspiration from Conky, and Conky Rings, and thought noticed how convenient it was to have that kind of information, but the one drawback to Conky is that it is only on the homescreen -- This becomes one of your peripherals and is always active.
 
 ---
@@ -20,14 +25,28 @@ The display shows the following:
 ---
 
 ## Stuff you will need:
-1. You need 4 female-to-female jumper wires to wire the LCD to the Pi
-2. A Raspberry Pi (I have only tested this on the pi5)
-3. An LCD screen. I used [this one](https://www.amazon.com/GeeekPi-Interface-Backlight-Raspberry-Electrical/dp/B0BCWJWKG2/141-8914070-5124150?pd_rd_w=aiDfA&content-id=amzn1.sym.751acc83-5c05-42d0-a15e-303622651e1e&pf_rd_p=751acc83-5c05-42d0-a15e-303622651e1e&pf_rd_r=FDYZRA57ETS49SXH0ZRA&pd_rd_wg=FOuh7&pd_rd_r=ce61adae-9817-4b25-9350-e5aa9f382d58&pd_rd_i=B0BCWJWKG2&psc=1)
+### Hardware
+  1. You need 4 female-to-female jumper wires to wire the LCD to the Pi
+  2. A Raspberry Pi (I have only tested this on the pi5)
+  3. An LCD screen. I used [this one](https://www.amazon.com/GeeekPi-Interface-Backlight-Raspberry-Electrical/dp/B0BCWJWKG2/141-8914070-5124150?pd_rd_w=aiDfA&content-id=amzn1.sym.751acc83-5c05-42d0-a15e-303622651e1e&pf_rd_p=751acc83-5c05-42d0-a15e-303622651e1e&pf_rd_r=FDYZRA57ETS49SXH0ZRA&pd_rd_wg=FOuh7&pd_rd_r=ce61adae-9817-4b25-9350-e5aa9f382d58&pd_rd_i=B0BCWJWKG2&psc=1)
+  
+  OPTIONAL THINGS (that will improve your experience):
+  1. A 3D printer
+  2. Filament (I used BambuLab Matte PLA)
+  3. 4 (or 2) M3 screws.
 
-OPTIONAL THINGS (that will improve your experience):
-1. A 3D printer
-2. Filament
-3. 4 (or 2) M3 screws.
+### Python Requirements
+Install all of the dependencies by just running this command:
+
+`pip install -r requirements.txt`
+
+If you have it in a different directory, you should run this command instead, putting the actual path to your `requirements.txt`.
+
+`pip install -r /path/to/your/requirements.txt`
+
+> [!Tip]
+> Depending on how you have your Pi configured, it may request that you create a .venv
+
 
 If you already have all of the necessary stuff to run your pi and everything in the list, you should be set!
 
@@ -62,7 +81,8 @@ Once you have done that, make the file executable by running this command:
 
 This will allow the file to run.
 
-**It is probably a good idea to just run `ExternalSystemMonitor.py` file to be sure that you have everything wired correctly and it works...**
+> [!NOTE]
+> It is probably a good idea to just run `ExternalSystemMonitor.py` file to be sure that you have everything wired correctly and it works...
 
 ### Configuring it to run on start
 This code was testing by addind it to the crontab file. Here is the steplist to follow:
@@ -74,7 +94,9 @@ Once you have it open, it should look something like this:
 ![20250703_19h24m52s_grim](https://github.com/user-attachments/assets/3ee27baa-2f42-4c40-9d6f-1027a9985dcd)
 
 You are going to have to scroll all the way down to the end of the comments and add this line:
+
 `@reboot /home/(your name)/externalsystemdisplay.sh`
+
 You should replace `(your name)` with the actual name of the account on the pi. If you do not move the `externalsystemdisplay.sh` file to the home directory on your pi, you may have to modify the command to reflect that.
 
 Once you are done you should press `CTRL + X` to exit and confirm any requests to save your changes.
@@ -99,7 +121,11 @@ You can find the `3mf` files in the 3D files folder. They have some settings mod
 
 To attach the screen to the stand, you will need 4 M3 screws. Just use the holes on the back of the stand to pass the screwdriver in.
 
-**I will try to upload photos soon**
+### Photos
+![462935674-c68daf85-abc6-4d0c-8a1c-371d4e4fbe4b](https://github.com/user-attachments/assets/71c4c71f-c36b-4e7a-9762-9473f3c86634)
+![IMG_20250706_113348169_HDR](https://github.com/user-attachments/assets/6ba8c85c-82ec-407c-a361-bb7def9c9d89)
+![ahaphtot](https://github.com/user-attachments/assets/2eee3f99-adee-4e8d-81c4-42f2bd3c6792)
+
 
 
 ---
